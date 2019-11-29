@@ -13,9 +13,6 @@ int main(){
 	int lis[n];
 	for(i=0;i<n;i++)
 		lis[i]=1;
-	for(i=0;i<n;i++)
-		cout<<lis[i]<<" ";
-	cout<<endl;
 
 	set<int>st;
 	set<int>::iterator it;
